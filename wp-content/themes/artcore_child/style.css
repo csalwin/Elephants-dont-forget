@@ -1,0 +1,290 @@
+/*
+Theme Name: Artcore Child Theme
+Theme URI: http://themes.esmeth.com/artcore
+Author: Esmeth Team
+Author URI: http://www.esmeth.com
+Description: Creative Architecture WordPress Theme
+Version: 1.2
+Tags: two-columns, responsive-layout, sticky-post, threaded-comments, translation-ready
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: artcore
+*/
+@import url("../artcore/assets/css/artcore.css");
+body {
+  font-family: "Pontano Sans", Helvetica, sans-serif;
+  font-size: 16px !important;
+  line-height: normal; }
+  body .btn {
+    text-transform: capitalize; }
+  body .site-header .top-header .right-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6ab9dc; }
+  body .site-header .main-header .logoNew {
+    max-width: 345px;
+    padding: 10px 0; }
+    body .site-header .main-header .logoNew img {
+      width: 100%; }
+  body .site-header .main-header .search-menu-button {
+    margin: 31px 0 0px 15px; }
+  body nav.main-navigation {
+    padding-top: 10px; }
+    body nav.main-navigation ul li {
+      padding: 12px 9px; }
+      @media (min-width: 992px) {
+        body nav.main-navigation ul li {
+          padding: 12px 12px; } }
+    body nav.main-navigation ul a, body nav.main-navigation ul .btn {
+      font-family: "Pontano Sans", Helvetica, sans-serif;
+      text-transform: none;
+      font-weight: bold;
+      font-size: 14px; }
+  body .header-right-toggle {
+    padding-left: 10px; }
+  body .main-header {
+    -webkit-box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative; }
+  body .site-header .top-header {
+    background: #ffffff; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    text-transform: none; }
+  body .wpcf7-form input[type='submit'] {
+    padding: 5px 30px;
+    color: #b375bc;
+    border-color: #b375bc; }
+  body #what-are-the-benefits .cta-button a, body #clients .cta-button a, body #how-it-works .cta-button a, body #what-makes-nelly-work .cta-button a, body #become-a-partner-header .cta-button a {
+    color: #b375bc;
+    border-color: #b375bc; }
+  body #what-makes-nelly-work .aq-block-ptf_text_image_block .single-image img {
+    padding-top: 15px;
+    margin: 0 auto;
+    float: none;
+    display: block; }
+  body #what-makes-nelly-work #btncontainer .container {
+    width: 428px; }
+  body #btncontainer {
+    padding-bottom: 0 !important; }
+    body #btncontainer .container {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto; }
+      body #btncontainer .container .aq-block-ptf_cta_block {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 50%;
+        float: left; }
+        body #btncontainer .container .aq-block-ptf_cta_block .call-to-action .cta-text {
+          display: none; }
+        body #btncontainer .container .aq-block-ptf_cta_block .call-to-action .cta-button {
+          float: none;
+          margin: 0 auto; }
+          body #btncontainer .container .aq-block-ptf_cta_block .call-to-action .cta-button a {
+            width: 100%; }
+  body #projects-filter {
+    display: none; }
+  body .progress {
+    height: 20px; }
+  body #analyses .aq-block-ptf_text_image_block .single-image img {
+    padding-top: 15px;
+    margin: 0 auto;
+    float: none;
+    display: block; }
+  body #analyses .aq-block-ptf_text_image_block .spacer {
+    display: none; }
+  body #how-nelly-helps .container {
+    max-width: 950px; }
+    body #how-nelly-helps .container .aq-block-ptf_text_block {
+      padding: 0 60px; }
+      body #how-nelly-helps .container .aq-block-ptf_text_block .circleanimation {
+        font-size: 15px;
+        color: #02070a;
+        text-align: center; }
+        body #how-nelly-helps .container .aq-block-ptf_text_block .circleanimation.circleText {
+          padding-top: 10px; }
+  body #bridge-the-gap .aq-block-ptf_text_block p {
+    color: #ffffff;
+    text-align: center; }
+  body #testimonial {
+    background: url("assets/img/testimonialBG.png") repeat; }
+    body #testimonial .aq-block-ptf_text_block.aq-first {
+      margin: 0 auto;
+      float: none; }
+      body #testimonial .aq-block-ptf_text_block.aq-first div {
+        padding: 50px 90px;
+        background: #ffffff;
+        border-radius: 15px; }
+        body #testimonial .aq-block-ptf_text_block.aq-first div:before, body #testimonial .aq-block-ptf_text_block.aq-first div:after {
+          content: url("assets/img/quotes.jpg");
+          height: 43px;
+          width: 69px;
+          position: absolute;
+          top: -14px;
+          left: 30px; }
+        body #testimonial .aq-block-ptf_text_block.aq-first div:after {
+          top: auto;
+          left: auto;
+          bottom: -14px;
+          right: 30px;
+          transform: rotate(180deg); }
+  body article.project-post .project-hover:hover img {
+    visibility: visible;
+    zoom: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  body article.project-post .project-hover img {
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    zoom: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    filter: alpha(opacity=0);
+    -webkit-transform: translate3d(0, 66px, 0);
+    -moz-transform: translate3d(0, 66px, 0);
+    -o-transform: translate3d(0, 66px, 0);
+    -ms-transform: translate3d(0, 66px, 0);
+    transform: translate3d(0, 66px, 0);
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s; }
+  body #clientLogos .clientSlider {
+    background: #3f3f3f; }
+    body #clientLogos .clientSlider img {
+      padding: 0 20px; }
+    body #clientLogos .clientSlider button {
+      display: none !important; }
+  body .project-single .project-image-placeholder {
+    display: block;
+    height: 100%; }
+    body .project-single .project-image-placeholder img {
+      width: 60%;
+      position: relative;
+      margin-top: 20%;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      -moz-transform: translateY(-50%) translateX(-50%);
+      -o-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%); }
+  body .awardsimg {
+    width: 50%;
+    height: 120px;
+    float: left; }
+    body .awardsimg img {
+      padding: 10px;
+      display: block;
+      margin: 0 auto;
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+    @media (min-width: 600px) {
+      body .awardsimg {
+        width: 20%; }
+        body .awardsimg img {
+          height: auto;
+          width: auto; } }
+  body #become-a-partner-header .aq-block-ptf_text_block {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    float: none; }
+  body #become-a-partner-header #btncontainer {
+    padding: 0 !important; }
+  body #already-a-partner .call-to-action {
+    max-width: 650px;
+    margin: 0 auto; }
+    body #already-a-partner .call-to-action .cta-title {
+      color: #3e3e3e; }
+    body #already-a-partner .call-to-action .cta-button a {
+      color: #b375bc;
+      border-color: #b375bc; }
+  body #partnership .services-wrapper p {
+    color: #333333; }
+  body #get-in-touch .aq-block-ptf_text_block {
+    text-align: center;
+    margin: 0 auto;
+    float: none; }
+  body #contact-sidebar a, body #contact-sidebar span {
+    font-weight: bold; }
+  body .project-details img {
+    max-width: 100%;
+    height: auto; }
+  body .project-nav .btn {
+    background: #8e8e8e;
+    font-size: 20px; }
+  body #awards {
+    padding: 20px 0 !important; }
+  body #interested-in-joining-the-team {
+    padding-top: 0 !important; }
+  body .section-header {
+    padding-bottom: 20px !important; }
+  body footer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81358f+0,6b237c+100 */
+    background: #81358f;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #81358f 0%, #6b237c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #81358f 0%, #6b237c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #81358f 0%, #6b237c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81358f', endColorstr='#6b237c',GradientType=0 );
+    /* IE6-9 */
+    color: #fff;
+    font-size: 15px; }
+    body footer a {
+      color: #fff;
+      font-size: 15px; }
+    body footer .social {
+      margin-top: 6px; }
+      body footer .social ul {
+        overflow: hidden; }
+        body footer .social ul li {
+          margin-top: 5px;
+          margin-right: 5px;
+          float: left;
+          padding: 0px 6px;
+          border: 2px solid #fff;
+          font-size: 20px; }
+          body footer .social ul li:before {
+            margin: 0; }
+    body footer .footer-widgets {
+      padding-top: 20px; }
+      body footer .footer-widgets .widget {
+        margin-bottom: 20px; }
+        body footer .footer-widgets .widget ul li:before {
+          content: '';
+          margin: 0; }
+    body footer ul#menu-footer-menu {
+      margin-bottom: 0px;
+      overflow: hidden;
+      padding-left: 15px; }
+      body footer ul#menu-footer-menu:after {
+        clear: both; }
+      body footer ul#menu-footer-menu li {
+        list-style: none;
+        padding-right: 10px;
+        float: left; }
+        body footer ul#menu-footer-menu li:after {
+          content: ' | ';
+          padding-left: 5px; }
+        body footer ul#menu-footer-menu li:last-of-type:after {
+          content: ''; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,482 @@
+/*
+Theme Name: Artcore Child Theme
+Theme URI: http://themes.esmeth.com/artcore
+Author: Esmeth Team
+Author URI: http://www.esmeth.com
+Description: Creative Architecture WordPress Theme
+Version: 1.2
+Tags: two-columns, responsive-layout, sticky-post, threaded-comments, translation-ready
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: artcore
+*/
+
+$purple: #b375bc;
+$blue: #6ab9dc;
+
+@import url("../artcore/assets/css/artcore.css");
+
+body {
+  font-family: "Pontano Sans", Helvetica, sans-serif;
+  font-size: 16px !important;
+  line-height: normal;
+  .btn {
+    text-transform: capitalize;
+  }
+
+  .site-header .top-header .right-header{
+    font-size: 18px;
+    font-weight: bold;
+    color: $blue;
+  }
+
+  .site-header {
+    .main-header {
+      .logoNew {
+        max-width: 345px;
+        padding: 10px 0;
+        img {
+          width: 100%;
+        }
+      }
+      .search-menu-button {
+        margin: 31px 0 0px 15px;
+      }
+    }
+
+  }
+
+  nav.main-navigation {
+    padding-top: 10px;
+    ul {
+      li {
+        padding: 12px 9px;
+        @media (min-width: 992px) {
+          padding: 12px 12px;
+          
+        }
+      }
+      a, .btn {
+        font-family: "Pontano Sans", Helvetica, sans-serif;
+        text-transform: none;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+  .header-right-toggle {
+    padding-left: 10px;
+  }
+
+
+
+  .main-header{
+    -webkit-box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+  }
+  .site-header .top-header {
+    background: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none;
+  }
+
+  .wpcf7-form {
+    input[type='submit'] {
+      padding: 5px 30px;
+      color: $purple;
+      border-color: $purple;
+    }
+  }
+
+
+  //Purple Buttons
+  #what-are-the-benefits, #clients, #how-it-works, #what-makes-nelly-work, #become-a-partner-header {
+    .cta-button{
+      a {
+        color: $purple;
+        border-color: $purple;
+      }
+    }
+  }
+  #what-makes-nelly-work {
+    .aq-block-ptf_text_image_block {
+      .single-image {
+        img {
+          padding-top: 15px;
+          margin: 0 auto;
+          float: none;
+          display: block;
+        }
+      }
+    }
+
+
+
+    #btncontainer {
+      .container  {
+        width: 428px;
+      }
+    }
+  }
+
+    #btncontainer {
+      padding-bottom: 0 !important;
+      .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        .aq-block-ptf_cta_block {
+          padding-left: 20px;
+          padding-right: 20px;
+
+          width: 50%;
+          float: left;
+          .call-to-action {
+            .cta-text {
+              display: none;
+            }
+            .cta-button {
+              float: none;
+              margin: 0 auto;
+              a {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  #projects-filter {
+    display: none;
+
+  }
+
+  .progress {
+    height: 20px;
+  }
+  #analyses {
+  .aq-block-ptf_text_image_block {
+    .single-image {
+      img {
+        padding-top: 15px;
+        margin: 0 auto;
+        float: none;
+        display: block;
+      }
+    }
+    .spacer {
+      display: none;
+    }
+    }
+  }
+
+  #how-nelly-helps {
+    .container {
+      max-width: 950px;
+      .aq-block-ptf_text_block {
+        padding: 0 60px;
+        .circleanimation  {
+          font-size: 15px;
+          color: #02070a;
+          text-align: center;
+          &.circleText {
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #bridge-the-gap {
+    .aq-block-ptf_text_block {
+      p {
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+  #testimonial {
+    background: url('assets/img/testimonialBG.png') repeat;
+    .aq-block-ptf_text_block.aq-first {
+      margin: 0 auto;
+      float: none;
+      div {
+        &:before, &:after {
+          content: url('assets/img/quotes.jpg');
+          height: 43px;
+          width: 69px;
+          position: absolute;
+          top: -14px;
+          left: 30px;
+        }
+        &:after {
+          top: auto;
+          left: auto;
+          bottom: -14px;
+          right:30px;
+          transform: rotate(180deg);
+        }
+        padding:50px 90px;
+        background: #ffffff;
+        border-radius: 15px;
+      }
+    }
+  }
+  //Portfolio page
+  article.project-post {
+
+   .project-hover {
+     &:hover {
+       img {
+         visibility: visible;
+         zoom: 1;
+         -webkit-opacity: 1;
+         -moz-opacity: 1;
+         opacity: 1;
+         filter: alpha(opacity=100);
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+         -ms-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+       }
+
+     }
+     img {
+       width: 100%;
+       height: auto;
+       visibility: visible;
+       zoom: 1;
+       -webkit-opacity: 1;
+       -moz-opacity: 1;
+       opacity: 1;
+       filter: alpha(opacity=0);
+       -webkit-transform: translate3d(0, 66px, 0);
+       -moz-transform: translate3d(0, 66px, 0);
+       -o-transform: translate3d(0, 66px, 0);
+       -ms-transform: translate3d(0, 66px, 0);
+       transform: translate3d(0, 66px, 0);
+       -moz-transition: all 0.4s;
+       -webkit-transition: all 0.4s;
+       -o-transition: all 0.4s;
+       transition: all 0.4s;
+     }
+   }
+
+  }
+  #clientLogos {
+    .clientSlider {
+      background: #3f3f3f;
+      img {
+        padding: 0 20px;
+      }
+      button {
+        display: none !important;
+      }
+    }
+  }
+
+  .project-single {
+    .project-image-placeholder {
+      //position: relative;
+      display: block;
+      height: 100%;
+      img {
+        width: 60%;
+        position: relative;
+        margin-top: 20%;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        -moz-transform: translateY(-50%) translateX(-50%);
+        -o-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
+
+  .awardsimg {
+    width: 50%;
+    height: 120px;
+    float: left;
+
+    img {
+
+      padding: 10px;
+      display: block;
+      margin: 0 auto;
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    @media (min-width: 600px){
+      width: 20%;
+      img {
+        height: auto;
+        width: auto;
+
+      }
+    }
+  }
+  #become-a-partner-header {
+    .aq-block-ptf_text_block {
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+    #btncontainer {
+      padding: 0 !important;
+    }
+  }
+
+  #already-a-partner {
+    .call-to-action {
+      max-width: 650px;
+      margin: 0 auto;
+      .cta-title {
+        color: #3e3e3e;
+      }
+      .cta-button{
+        a {
+          color: $purple;
+          border-color: $purple;
+        }
+      }
+    }
+  }
+
+  #partnership {
+    .services-wrapper {
+      p {
+        color: #333333;
+      }
+    }
+  }
+
+  #get-in-touch {
+    .aq-block-ptf_text_block {
+      text-align: center;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+  #contact-sidebar {
+    a, span {
+      font-weight: bold;
+    }
+  }
+
+  .project-details {
+    img {
+      max-width: 100%;
+      height:auto;
+    }
+  }
+  .project-nav {
+    .btn {
+      background: #8e8e8e;
+      font-size: 20px;
+    }
+  }
+
+
+  #awards {
+    padding: 20px 0 !important;
+  }
+
+  #interested-in-joining-the-team {
+    padding-top: 0 !important;
+
+  }
+  .section-header {
+    padding-bottom: 20px !important;
+  }
+
+  footer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81358f+0,6b237c+100 */
+    background: #81358f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #81358f 0%, #6b237c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #81358f 0%,#6b237c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #81358f 0%,#6b237c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81358f', endColorstr='#6b237c',GradientType=0 ); /* IE6-9 */
+
+
+
+
+    //
+    //background: #893399;
+    color: #fff;
+    font-size: 15px;
+    a {
+      color: #fff;
+      font-size: 15px;
+    }
+    .social {
+      margin-top: 6px;
+      ul {
+        overflow: hidden;
+        li {
+          &:before {
+            margin: 0;
+          }
+          margin-top: 5px;
+          margin-right: 5px;
+          float: left;
+          padding: 0px 6px;
+          border: 2px solid #fff;
+          font-size: 20px;
+
+        }
+      }
+    }
+
+    .footer-widgets {
+      padding-top: 20px;
+      .widget {
+        margin-bottom: 20px;
+        ul {
+          li:before {
+            content: '';
+            margin: 0;
+          }
+        }
+      }
+
+    }
+    ul#menu-footer-menu {
+      margin-bottom: 0px;
+      overflow: hidden;
+      padding-left: 15px;
+      &:after {
+        clear: both;
+      }
+        li {
+          list-style: none;
+          padding-right: 10px;
+          float: left;
+          &:after {
+            content: ' | ';
+            padding-left: 5px;
+          }
+          &:last-of-type:after {
+            content: '';
+          }
+        }
+      }
+
+
+
+  }
+
+
+}
