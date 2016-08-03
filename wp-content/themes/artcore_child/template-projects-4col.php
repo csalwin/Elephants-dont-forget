@@ -62,6 +62,28 @@ get_header(); ?>
                 </ul>
             </div>
         </div>
+
+        <div class="row" id="clientLogos" style="margin-bottom: 30px">
+            <div class="col-xs-12">
+                <div class="clientSlider">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/>
+
+                </div>
+            </div>
+        </div>
         
         <div class="row" id="projects-grid">
             <?php
@@ -115,28 +137,6 @@ get_header(); ?>
             </div>
             <?php endwhile; endif; ?>
             <?php wp_reset_postdata(); ?>
-        </div>
-        
-        <div class="row" id="clientLogos">
-            <div class="col-xs-12">
-                <div class="clientSlider">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/>
-
-                </div>
-            </div>
         </div>
         
         
