@@ -55,16 +55,21 @@ body {
     padding: 5px 30px;
     color: #b375bc;
     border-color: #b375bc; }
-  body #what-are-the-benefits .cta-button a, body #clients .cta-button a, body #how-it-works .cta-button a, body #what-makes-nelly-work .cta-button a, body #become-a-partner-header .cta-button a {
+  body #how-it-works {
+    background: url("assets/img/guaranteeResultsBG.jpg") repeat; }
+  body #what-are-the-benefits .cta-button a, body #clients .cta-button a, body #how-it-works .cta-button a, body #become-a-partner-header .cta-button a {
     color: #b375bc;
     border-color: #b375bc; }
-  body #what-makes-nelly-work .aq-block-ptf_text_image_block .single-image img {
-    padding-top: 15px;
-    margin: 0 auto;
-    float: none;
-    display: block; }
-  body #what-makes-nelly-work #btncontainer .container {
-    width: 428px; }
+  body #what-makes-nelly-work {
+    color: #fff;
+    background: #b375bc; }
+    body #what-makes-nelly-work .aq-block-ptf_text_image_block .single-image img {
+      padding-top: 15px;
+      margin: 0 auto;
+      float: none;
+      display: block; }
+    body #what-makes-nelly-work #btncontainer .container {
+      width: 428px; }
   body #btncontainer {
     padding-bottom: 0 !important; }
     body #btncontainer .container {
@@ -82,7 +87,8 @@ body {
           float: none;
           margin: 0 auto; }
           body #btncontainer .container .aq-block-ptf_cta_block .call-to-action .cta-button a {
-            width: 100%; }
+            width: 100%;
+            padding: 12px 0px; }
   body #projects-filter {
     display: none; }
   body .progress {

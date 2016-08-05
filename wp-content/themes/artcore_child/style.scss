@@ -92,9 +92,13 @@ body {
     }
   }
 
+  #how-it-works {
+    background: url('assets/img/guaranteeResultsBG.jpg') repeat;
+  }
+
 
   //Purple Buttons
-  #what-are-the-benefits, #clients, #how-it-works, #what-makes-nelly-work, #become-a-partner-header {
+  #what-are-the-benefits, #clients, #how-it-works, #become-a-partner-header {
     .cta-button{
       a {
         color: $purple;
@@ -103,6 +107,8 @@ body {
     }
   }
   #what-makes-nelly-work {
+    color: #fff;
+    background: $purple;
     .aq-block-ptf_text_image_block {
       .single-image {
         img {
@@ -113,8 +119,6 @@ body {
         }
       }
     }
-
-
 
     #btncontainer {
       .container  {
@@ -144,6 +148,7 @@ body {
               margin: 0 auto;
               a {
                 width: 100%;
+                padding: 12px 0px;
               }
             }
           }
