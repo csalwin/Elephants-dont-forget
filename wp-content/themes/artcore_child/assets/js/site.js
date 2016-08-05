@@ -46,26 +46,29 @@ jQuery( document ).ready(function ($) {
     }
 
 
-    $('.clientSlider').slick({
-        responsive: [
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 0,
-                speed: 2000,
-                cssEase:'linear'
-            }
-        }
-    ],
-        slidesToShow: 7,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 2000,
-        cssEase:'linear'
+
+    $(function () {
+        $('.clientSlider').slick({
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 0,
+                        speed: 2000,
+                        cssEase:'linear'
+                    }
+                }
+            ],
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 2000,
+            cssEase:'linear'
+        });
     });
 
 

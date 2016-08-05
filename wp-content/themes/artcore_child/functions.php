@@ -14,7 +14,7 @@ wp_enqueue_style( 'slickSlider', get_stylesheet_directory_uri() . '/assets/js/sl
 
 wp_enqueue_script( 'progressBar', get_stylesheet_directory_uri() . '/assets/js/progressBar.js', array('jquery'), '1.0' , true);
 wp_enqueue_script( 'site', get_stylesheet_directory_uri() . '/assets/js/site.js', array('jquery'), '1.0' , true);
-wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/assets/js/slick/slick.js', array('jquery'), '1.0' , true);
+wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/assets/js/slick/slick.js', array('jquery'), '1.0' , false);
 
 // This theme uses wp_nav_menu() in one locations.
 register_nav_menus(array(

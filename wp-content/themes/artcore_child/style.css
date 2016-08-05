@@ -132,7 +132,7 @@ body {
         body #testimonial .aq-block-ptf_text_block.aq-first div:after {
           top: auto;
           left: auto;
-          bottom: -14px;
+          bottom: -4px;
           right: 30px;
           transform: rotate(180deg); }
   body article.project-post .project-hover:hover img {
