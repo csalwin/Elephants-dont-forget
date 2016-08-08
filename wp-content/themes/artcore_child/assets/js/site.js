@@ -53,37 +53,43 @@ jQuery( document ).ready(function ($) {
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                         autoplay: true,
                         autoplaySpeed: 0,
-                        speed: 2000,
+                        speed: 4500,
                         cssEase:'linear'
                     }
                 }
             ],
-            slidesToShow: 7,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 0,
-            speed: 2000,
-            cssEase:'linear'
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 0,
+                speed: 3000,
+                cssEase:'linear'
+    //         slidesToShow: 7,
+    //         slidesToScroll: 1,
+    //         autoplay: true,
+    //         autoplaySpeed: 0,
+    //         speed: 2000,
+    //         pauseOnHover: false,
+    //         cssEase:'linear',
+    //         responsive: [
+    //             {
+    //                 breakpoint: 600,
+    //                 settings: {
+    //                     slidesToShow: 4
+    //                 }
+    //             }
+    //         ]
+    //
         });
     });
 
 
 
 });
-
-
-
-
-
-
-
-
-
-
     var circle1 = new ProgressBar.Circle('#circleAnimation28', {
         color: '#6cb5d3',
         strokeWidth: 15,

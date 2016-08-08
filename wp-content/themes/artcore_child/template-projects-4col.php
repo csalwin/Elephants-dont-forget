@@ -64,7 +64,7 @@ get_header(); ?>
         </div>
 
         <div class="row" id="clientLogos" style="margin-bottom: 30px">
-            <div class="col-xs-12">
+            <dv class="col-xs-12">
                 <div class="clientSlider">
                     <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
                     <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
@@ -85,7 +85,6 @@ get_header(); ?>
                     <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Galderma.png"/>
                     <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-GlobalRadio.png"/>
                     <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Meda.png"/>
-
                 </div>
             </div>
         </div>
@@ -122,7 +121,7 @@ get_header(); ?>
 
             ?>
              
-            <div class="col-md-3 col-sm-6 project-item <?php echo esc_attr( $project_cats ); ?>">
+            <div class="col-md-3 col-sm-6 col-xs-12 project-item <?php echo esc_attr( $project_cats ); ?>">
                 <article class="project-post">
                     <a href="<?php the_permalink(); ?>" class="project-link"><div class="project-overlay"></div>
                         <div class="project-hover">
@@ -148,4 +147,5 @@ get_header(); ?>
     </div>
    <?php ptf_paging_nav(); ?>
 </div>
+
 <?php get_footer(); ?>
