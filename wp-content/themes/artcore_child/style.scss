@@ -23,7 +23,9 @@ body {
   .btn {
     text-transform: capitalize;
   }
-
+  .sidebar-menu {
+    visibility: visible !important;
+  }
   .site-header .top-header .right-header{
     font-size: 18px;
     font-weight: bold;
@@ -275,8 +277,12 @@ body {
 
   }
   #clientLogos {
-    .clientSlider {
+    .bx-wrapper .bx-viewport{
       background: #3f3f3f;
+
+    }
+    .clientSlider {
+
       img {
         padding: 0 20px;
       }

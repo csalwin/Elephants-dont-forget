@@ -17,6 +17,8 @@ body {
   line-height: normal; }
   body .btn {
     text-transform: capitalize; }
+  body .sidebar-menu {
+    visibility: visible !important; }
   body .site-header .top-header .right-header {
     font-size: 18px;
     font-weight: bold;
@@ -165,12 +167,12 @@ body {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s; }
-  body #clientLogos .clientSlider {
+  body #clientLogos .bx-wrapper .bx-viewport {
     background: #3f3f3f; }
-    body #clientLogos .clientSlider img {
-      padding: 0 20px; }
-    body #clientLogos .clientSlider button {
-      display: none !important; }
+  body #clientLogos .clientSlider img {
+    padding: 0 20px; }
+  body #clientLogos .clientSlider button {
+    display: none !important; }
   body .project-single .project-image-placeholder {
     display: block;
     height: 100%; }

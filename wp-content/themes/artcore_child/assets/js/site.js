@@ -48,43 +48,58 @@ jQuery( document ).ready(function ($) {
 
 
     $(function () {
-        $('.clientSlider').slick({
-            responsive: [
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        autoplay: true,
-                        autoplaySpeed: 0,
-                        speed: 4500,
-                        cssEase:'linear'
-                    }
-                }
-            ],
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 0,
-                speed: 3000,
-                cssEase:'linear'
-    //         slidesToShow: 7,
-    //         slidesToScroll: 1,
-    //         autoplay: true,
-    //         autoplaySpeed: 0,
-    //         speed: 2000,
-    //         pauseOnHover: false,
-    //         cssEase:'linear',
-    //         responsive: [
-    //             {
-    //                 breakpoint: 600,
-    //                 settings: {
-    //                     slidesToShow: 4
-    //                 }
-    //             }
-    //         ]
-    //
+        $('.clientSlider').bxSlider({
+            minSlides: 2,
+            maxSlides: 6,
+            slideWidth: 170,
+            slideMargin: 5,
+            ticker: true,
+            speed: 24000
         });
+
+
+
+
+        // $('.clientSlider').slick({
+        //     // slidesToShow: 6,
+        //     // slidesToScroll: 1,
+        //     // autoplay: true,
+        //     // autoplaySpeed: 0,
+        //     // speed: 3000,
+        //     // cssEase:'linear',
+        //     // slide: 'img'
+        //     // responsive: [
+        //     //     {
+        //     //         breakpoint: 600,
+        //     //         settings: {
+        //     //             slidesToShow: 3,
+        //     //             slidesToScroll: 1,
+        //     //             autoplay: true,
+        //     //             autoplaySpeed: 0,
+        //     //             speed: 4500,
+        //     //             cssEase:'linear'
+        //     //         }
+        //     //     }
+        //     // ]
+        //
+        //
+        //     slidesToShow: 7,
+        //     slidesToScroll: 1,
+        //     autoplay: true,
+        //     autoplaySpeed: 0,
+        //     speed: 2000,
+        //     pauseOnHover: false,
+        //     cssEase:'linear',
+        //     responsive: [
+        //         {
+        //             breakpoint: 600,
+        //             settings: {
+        //                 slidesToShow: 4
+        //             }
+        //         }
+        //     ]
+        //
+        // });
     });
 
 

@@ -65,27 +65,27 @@ get_header(); ?>
 
         <div class="row" id="clientLogos" style="margin-bottom: 30px">
             <dv class="col-xs-12">
-                <div class="clientSlider">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Faurecia.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Capita.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Butlins.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-NewsUK.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-ScottishPower.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-AIB.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Unum.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Calor.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-EUSkills.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Galderma.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-GlobalRadio.png"/>
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Meda.png"/>
-                </div>
+                <ul class="clientSlider">
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-eon.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-experian.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-volvo.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-rac.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Faurecia.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-worldpay.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-FirstUtility.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-closebrothers.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Capita.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Butlins.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-NewsUK.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-ScottishPower.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-AIB.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Unum.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Calor.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-EUSkills.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Galderma.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-GlobalRadio.png"/></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/ourClients/EDF-ClientLogos-Meda.png"/></li>
+                </ul>
             </div>
         </div>
         
