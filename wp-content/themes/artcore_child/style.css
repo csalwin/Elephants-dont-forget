@@ -57,6 +57,8 @@ body {
     padding: 5px 30px;
     color: #b375bc;
     border-color: #b375bc; }
+  body .team-item .team-thumb .hover {
+    display: none; }
   body #how-it-works {
     background: url("assets/img/guaranteeResultsBG.jpg") repeat; }
   body #what-are-the-benefits .cta-button a, body #clients .cta-button a, body #how-it-works .cta-button a, body #become-a-partner-header .cta-button a {

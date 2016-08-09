@@ -54,7 +54,7 @@ jQuery( document ).ready(function ($) {
             slideWidth: 170,
             slideMargin: 5,
             ticker: true,
-            speed: 24000
+            speed: 32000
         });
 
 
