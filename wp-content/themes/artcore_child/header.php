@@ -94,7 +94,7 @@
 <!--                            </div>-->
                         <div id="main-header" class="main-header">
                             <div class="inner-header clearfix">
-                                <div class="logoNew col-xs-11 col-sm-7 col-md-4">
+                                <div class="logoNew col-xs-10 col-sm-7 col-md-4">
                                     <a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo('name') ); ?>" rel="home">
                                         <img class="logo-holder" src="<?php echo esc_url( get_theme_mod( 'ptf_logo', get_template_directory_uri() . '/assets/images/logo.png' ) );?>" alt="<?php echo esc_attr( get_bloginfo('name') ); ?>">
                                     </a>
