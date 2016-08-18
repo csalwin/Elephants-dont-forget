@@ -26,7 +26,7 @@ jQuery( document ).ready(function ($) {
                 (element_top_position <= window_bottom_position)) {
 
                 circle1.animate(0, function () {
-                    circle1.animate(0.28);
+                    circle1.animate(0.22);
                 });
 
                 circle2.animate(0, function () {
