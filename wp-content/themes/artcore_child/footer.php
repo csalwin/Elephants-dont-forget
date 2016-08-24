@@ -48,7 +48,6 @@
                     wp_nav_menu( $footer_menu );
                 endif;
                 ?>
-                 <div class="col-sm-8"><?php echo esc_html( get_theme_mod( 'ptf_footer_text', __( '(c) 2015 - Artcore Creative Architecture WordPress Theme', 'artcore' ) ) ); ?></div>
                 <div class="col-sm-4 pull-right text-right">&copy; Elephants don't forget ltd <?php echo Date('Y')?></div>
             </div>
         </div>
